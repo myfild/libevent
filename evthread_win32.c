@@ -25,7 +25,7 @@
  */
 #include "event2/event-config.h"
 #include "evconfig-private.h"
-
+#define _WIN32_WINNT 0x0500
 #ifdef _WIN32
 #ifndef _WIN32_WINNT
 /* Minimum required for InitializeCriticalSectionAndSpinCount */
